@@ -2,21 +2,21 @@ Config = {}
 
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
-Config.TruckerJobTruckDeposit = 500
+Config.TruckerJobTruckDeposit = 250
 Config.TruckerJobFixedLocation = false
 Config.TruckerJobMaxDrops = 20 -- amount of locations before being forced to return to station to reload
-Config.TruckerJobDropPrice = 500
+Config.TruckerJobDropPrice = 800
 Config.TruckerJobBonus = 20 -- this is a percentage to calculate bonus over 5 deliveries.
 Config.TruckerJobPaymentTax = 15
 
 Config.TruckerJobLocations = {
     ["main"] = {
         label = "Truck Shed",
-        coords = vector4(2671.09, 1603.24, 24.5, 334.97),
+        coords = vector4(-421.85, 6137.16, 31.88, 227.63),
     },
     ["vehicle"] = {
         label = "Truck Storage",
-        coords = vector4(2677.13, 1671.01, 24.49, 268.38),
+        coords = vector4(-430.8, 6133.17, 31.48, 44.13),
     },
 }
 
